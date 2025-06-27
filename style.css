@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" sans-serif;
+}
+  
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    font-size: 15px;
+    padding: 20px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    background: linear-gradient(to top, #8079ff,#000000);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    height: 500px;
+}
+
+.headerpic{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlogo{
+    background-color: aliceblue;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.websubname,
+.webname{
+    padding: 10px 0px 10px 0px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.webname h1{
+    padding-top: 10px;
+    font-size: 80px;
+    font-weight: 10px;
+    letter-spacing: 10px;
+}
+
+.websubname p{
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.aboutus{
+    background: linear-gradient(to left, #170DF2, #a5dfd9);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.aboutus img{
+    width: 500px;
+    height: 500px;
+
+}
+
+.abouttext{
+    padding-right: 700px;
+    color: #ffffffff;
+    line-height: 25px;
+}
+
+.abouttext h1{
+    padding: 20px 0px 50px 0px;
+    font-size: 40px;
+}
+
+.abouttext p{
+    font-size: 15px;
+}
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.showcase img{
+    width: 33%;
+    height: auto;
+    object-fit: cover;
+}
+
+.welcome{
+    background-image: url(img/001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.welcome h1{
+    color: #ffffffff ;
+    justify-content: flex-end;
+    padding: 580px 550px 10px 400px;
+}
+
+.contace{
+    padding: 0px 40px 40px 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.info{
+    padding: 80px 80px 0px 0px;
+    background-color: #ffffffff;
+}
+
+.info h1{
+    font-size: 30px;
+}
+
+.info h2{
+    font-size: 20px;
+   
+}
+
+.info p{
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.info img{
+    padding-left: 40px;
+    height: 300px;
+    width: 300px;
+}
+
+.infoimg img{
+    height: 450px;
+}
+
+
+
